@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.devsoc.icaiefa_2022.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_goal"
+            app:destination="@id/nav_goal" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_speakers"
+            app:destination="@id/nav_speakers" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_sponsors"
+            app:destination="@id/nav_sponsors" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_maps"
+            app:destination="@id/nav_maps" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_goal"
+        android:name="com.devsoc.icaiefa_2022.fragments.GoalFragment"
+        android:label="@string/menu_goal"
+        tools:layout="@layout/fragment_goal" >
+        <action
+            android:id="@+id/action_nav_goal_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_about_conference"
+        android:name="com.devsoc.icaiefa_2022.fragments.AboutConferenceFragment"
+        android:label="@string/menu_about_conference"
+        tools:layout="@layout/fragment_about_conference" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.devsoc.icaiefa_2022.fragments.MapsFragment"
+        android:label="@string/menu_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_nav_maps_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_restaurants"
+        android:name="com.devsoc.icaiefa_2022.fragments.RestaurantsFragment"
+        android:label="@string/menu_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+    <fragment
+        android:id="@+id/nav_speakers"
+        android:name="com.devsoc.icaiefa_2022.fragments.SpeakersFragment"
+        android:label="@string/menu_speakers"
+        tools:layout="@layout/fragment_speakers" >
+        <action
+            android:id="@+id/action_nav_speakers_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_sponsors"
+        android:name="com.devsoc.icaiefa_2022.fragments.SponsorsFragment"
+        android:label="@string/menu_sponsors"
+        tools:layout="@layout/fragment_sponsors">
+        <action
+            android:id="@+id/action_sponsorsFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>
