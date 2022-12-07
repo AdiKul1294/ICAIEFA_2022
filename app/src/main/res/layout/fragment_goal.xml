@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#88FF9100">
+        android:background="#3EFF9100">
 
 
         <ScrollView
