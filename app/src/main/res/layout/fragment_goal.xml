@@ -3,76 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
 
-    </data>
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#3EFF9100">
 
-
-        <ScrollView
-            android:id="@+id/scrollView2"
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_gf"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:background="#FF5722">
 
-            <LinearLayout
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:background="#FF9100"
+                app:tabGravity="fill"
+                app:tabIndicatorAnimationMode="elastic"
+                app:tabIndicatorColor="@color/white"
+                app:tabIndicatorFullWidth="false"
+                app:tabInlineLabel="true"
+                app:tabMode="fixed"
+                app:tabTextAppearance="@style/CustomTabStyle"
+                app:tabTextColor="@color/white" />
+        </com.google.android.material.appbar.AppBarLayout>
 
-                <TextView
-                    android:id="@+id/goals_tv_gf"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_margin="10dp"
-                    android:textColor="#000000"
-                    android:textSize="20sp" />
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager_gf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_bar_gf"/>
 
-                <TextView
-                    android:id="@+id/title1_tv_gf"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Thrust Areas"
-                    android:textColor="#FF5722"
-                    android:textSize="30sp"
-                    android:textStyle="bold" />
+    </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/thrust_areas_tv_gf"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="@string/bulleted_list"
-                    android:textColor="#000000"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/title2_tv_gf"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Structure of the Conference"
-                    android:textColor="#FF5722"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/structure_tv_gf"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="TextView"
-                    android:textColor="#000000"
-                    android:textSize="20sp" />
-
-            </LinearLayout>
-        </ScrollView>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

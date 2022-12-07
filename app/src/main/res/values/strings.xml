@@ -19,7 +19,7 @@
     <string name="menu_about_conference">About ICAIEFA 2022</string>
     <string name="menu_sponsors">Sponsors</string>
 
-    <string name="bulleted_list"><big>The conference will focus on (but is not limited to) the following key topics: </big>
+    <string name="bulleted_list"><big>The conference will focus on (but is not limited to) the following key topics: </big> \n
         \n <li>AIE-based molecules in chemical sensing</li>
         \n <li>AIEgens in bioimaging, theranostic and biomedical applications</li>
         \n <li>Use of AIEgens as biosensor</li>

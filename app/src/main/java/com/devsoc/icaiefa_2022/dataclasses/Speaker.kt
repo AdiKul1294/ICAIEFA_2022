@@ -4,5 +4,6 @@ data class Speaker(
     val name : String,
     val email : String,
     val institute : String,
-    val img : Int
+    val img : Int,
+    val url : String,
 )
