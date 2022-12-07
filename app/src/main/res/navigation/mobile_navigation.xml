@@ -76,5 +76,9 @@
             android:id="@+id/action_sponsorsFragment_to_nav_home"
             app:destination="@id/nav_home" />
     </fragment>
+    <fragment
+        android:id="@+id/nav_sightseeing"
+        android:name="com.devsoc.icaiefa_2022.fragments.VisitingPlacesFragment"
+        android:label="Places to Visit in Goa" />
 
 </navigation>
