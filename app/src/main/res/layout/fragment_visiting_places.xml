@@ -12,6 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:fontFamily="@font/averia_libre_bold"
             android:text="Must Visit Places"
             android:textColor="#000000"
             android:textSize="25sp"
@@ -47,7 +48,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="bottom"
                 app:cardBackgroundColor="#B3FFFFFF">
 
                 <TextView
@@ -55,9 +56,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/averia_libre_bold"
                     android:text="Basilica of Bom Jesus"
                     android:textColor="#000000"
-                    android:textSize="17.5sp" />
+                    android:textSize="17sp" />
             </androidx.cardview.widget.CardView>
         </androidx.cardview.widget.CardView>
 
@@ -85,7 +87,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="bottom"
                 app:cardBackgroundColor="#B3FFFFFF">
 
                 <TextView
@@ -93,6 +95,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/averia_libre_bold"
                     android:text="Dudhsagar Falls"
                     android:textColor="#000000"
                     android:textSize="17.5sp" />
@@ -123,7 +126,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="bottom"
                 app:cardBackgroundColor="#B3FFFFFF">
 
                 <TextView
@@ -131,6 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/averia_libre_bold"
                     android:text="Aguada Fort"
                     android:textColor="#000000"
                     android:textSize="17.5sp" />
@@ -156,12 +160,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                app:srcCompat="@mipmap/sinquerim" />
+                app:srcCompat="@mipmap/calangute_beach" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:layout_gravity="bottom|center"
                 app:cardBackgroundColor="#B3FFFFFF">
 
                 <TextView
@@ -169,7 +173,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Sinquerim Beach"
+                    android:fontFamily="@font/averia_libre_bold"
+                    android:text="Calangute Beach"
                     android:textColor="#000000"
                     android:textSize="17.5sp" />
             </androidx.cardview.widget.CardView>
@@ -177,7 +182,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="365dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -191,6 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="10dp"
+                android:fontFamily="@font/averia_libre_bold"
                 android:text="Other Places"
                 android:textColor="#000000"
                 android:textSize="20sp"

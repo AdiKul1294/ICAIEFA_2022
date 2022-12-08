@@ -6,8 +6,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#3EFF9100">
+        android:layout_height="match_parent">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/app_bar_gf"
@@ -19,22 +18,23 @@
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FF9100"
                 app:tabGravity="fill"
                 app:tabIndicatorAnimationMode="elastic"
-                app:tabIndicatorColor="@color/white"
+                app:tabIndicatorColor="#FF5722"
                 app:tabIndicatorFullWidth="false"
                 app:tabInlineLabel="true"
                 app:tabMode="fixed"
                 app:tabTextAppearance="@style/CustomTabStyle"
-                app:tabTextColor="@color/white" />
+                app:tabTextColor="#FF5722"
+                tools:ignore="SpeakableTextPresentCheck" />
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/view_pager_gf"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/app_bar_gf"/>
+            android:layout_below="@id/app_bar_gf"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </RelativeLayout>
 
