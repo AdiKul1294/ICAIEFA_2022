@@ -25,6 +25,10 @@
             android:icon="@drawable/ic_menu_maps"
             android:title="@string/menu_maps" />
         <item
+            android:id="@+id/nav_cab_services"
+            android:icon="@drawable/ic_drive"
+            android:title="@string/cab_services" />
+        <item
             android:id="@+id/nav_sightseeing"
             android:icon="@drawable/ic_menu_sightseeing"
             android:title="@string/menu_sightseeing" />
