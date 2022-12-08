@@ -228,8 +228,8 @@ class SpeakersFragment : Fragment() {
         }
 
         adapter.onItemClick = {
-            val url : String = it.url
-            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val url: String = it.url
+            val builder: CustomTabsIntent.Builder = CustomTabsIntent.Builder()
             val customTabsIntent = builder.build()
             customTabsIntent.launchUrl(requireContext(), Uri.parse(url))
         }

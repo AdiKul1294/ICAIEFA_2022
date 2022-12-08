@@ -44,7 +44,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:fontFamily="@font/days_one"
+                        android:fontFamily="@font/poppins_extrabold"
                         android:text="ICAIEFA 2022"
                         android:textColor="#FFFFFF"
                         android:textSize="20sp"
@@ -59,7 +59,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:fontFamily="@font/days_one"
+                        android:fontFamily="@font/poppins_extrabold"
                         android:text="December 16-18, 2022"
                         android:textColor="#FFFFFF"
                         android:textSize="18sp"
@@ -112,7 +112,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:fontFamily="@font/days_one"
+                            android:fontFamily="@font/poppins_extrabold"
                             android:text="Goals"
                             android:textColor="#000000"
                             android:textSize="35sp" />
@@ -162,7 +162,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_margin="5dp"
-                            android:fontFamily="@font/days_one"
+                            android:fontFamily="@font/poppins_extrabold"
                             android:text="Speakers"
                             android:textColor="#000000"
                             android:textSize="35sp" />
@@ -212,7 +212,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:fontFamily="@font/days_one"
+                            android:fontFamily="@font/poppins_extrabold"
                             android:text="Sponsors"
                             android:textColor="#000000"
                             android:textSize="35sp" />
@@ -260,7 +260,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:fontFamily="@font/days_one"
+                            android:fontFamily="@font/poppins_extrabold"
                             android:text="Maps"
                             android:textColor="#000000"
                             android:textSize="35sp" />

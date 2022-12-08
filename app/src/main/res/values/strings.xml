@@ -32,5 +32,6 @@
     </string>
     <string name="menu_sightseeing">Places to Visit in Goa</string>
     <string name="cab_services">Cab Services</string>
+    <string name="menu_about_dev">About the Developers</string>
 
 </resources>

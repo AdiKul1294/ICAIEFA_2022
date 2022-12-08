@@ -4,6 +4,8 @@
         <item>@font/allerta</item>
         <item>@font/averia_libre_bold</item>
         <item>@font/days_one</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_extrabold</item>
         <item>@font/roboto_bold</item>
     </array>
 </resources>

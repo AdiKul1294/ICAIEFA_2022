@@ -88,6 +88,27 @@
                     app:layout_constraintStart_toEndOf="@+id/image1_cv_rf"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6"
                     app:layout_constraintVertical_bias="0.0" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/link1_cv_rf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#0C8148"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/phone1_tv_rf"
+                    app:layout_constraintTop_toBottomOf="@+id/name1_tv_rf"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <ImageView
+                        android:id="@+id/link1_iv_rf"
+                        android:layout_width="24dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/ic_arrow" />
+                </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
@@ -173,6 +194,27 @@
                     app:layout_constraintStart_toEndOf="@+id/image2_cv_rf"
                     app:layout_constraintTop_toBottomOf="@+id/imageView7"
                     app:layout_constraintVertical_bias="0.0" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/link2_cv_rf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#0C8148"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/phone2_tv_rf"
+                    app:layout_constraintTop_toBottomOf="@+id/name2_tv_rf"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <ImageView
+                        android:id="@+id/link2_iv_rf"
+                        android:layout_width="24dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/ic_arrow" />
+                </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
@@ -258,6 +300,27 @@
                     app:layout_constraintStart_toEndOf="@+id/image3_cv_rf"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8"
                     app:layout_constraintVertical_bias="0.0" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/link3_cv_rf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#0C8148"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/phone3_tv_rf"
+                    app:layout_constraintTop_toBottomOf="@+id/name3_tv_rf"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <ImageView
+                        android:id="@+id/link3_iv_rf"
+                        android:layout_width="24dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/ic_arrow" />
+                </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
@@ -343,6 +406,27 @@
                     app:layout_constraintStart_toEndOf="@+id/image4_cv_rf"
                     app:layout_constraintTop_toBottomOf="@+id/imageView9"
                     app:layout_constraintVertical_bias="0.0" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/link4_cv_rf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#0C8148"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/phone4_tv_rf"
+                    app:layout_constraintTop_toBottomOf="@+id/name4_tv_rf"
+                    app:layout_constraintVertical_bias="1.0">
+
+                    <ImageView
+                        android:id="@+id/link4_iv_rf"
+                        android:layout_width="24dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/ic_arrow" />
+                </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
