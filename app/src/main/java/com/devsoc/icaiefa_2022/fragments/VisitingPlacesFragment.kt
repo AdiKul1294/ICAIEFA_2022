@@ -8,11 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.browser.customtabs.CustomTabsIntent
 import androidx.databinding.DataBindingUtil
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.devsoc.icaiefa_2022.R
-import com.devsoc.icaiefa_2022.adapters.PlacesAdapter
 import com.devsoc.icaiefa_2022.databinding.FragmentVisitingPlacesBinding
-import com.devsoc.icaiefa_2022.dataclasses.Place
 
 class VisitingPlacesFragment : Fragment() {
 
@@ -54,59 +51,52 @@ class VisitingPlacesFragment : Fragment() {
             customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/Y6qJzBAJ1wm569Bu9"))
         }
 
-        var placesList = mutableListOf<Place>(
-            Place(
-                "Bogmalo Beach",
-                R.mipmap.bogmalo,
-                "https://maps.app.goo.gl/N7a73BLJ5x5wmbQ56"
-            ),
-            Place(
-                "Baga Beach",
-                R.mipmap.baga,
-                "https://maps.app.goo.gl/UGrw3chxCjvz56mUA"
-            ),
-            Place(
-                "Majorda Beach",
-                R.mipmap.majorda,
-                "https://maps.app.goo.gl/ic4zmvM57TnWJ9DK6"
-            ),
-            Place(
-                "Sunset Cruise",
-                R.mipmap.cruise,
-                "https://maps.app.goo.gl/oNdkY2baHwrjTXyHA"
-            ),
-            Place(
-                "Shantadurga Temple",
-                R.mipmap.shantadurga,
-                "https://maps.app.goo.gl/rNiUentyJM6nnd9u5"
-            ),
-            Place("Old Goa Church",
-                R.mipmap.old_goa_church,
-                "https://maps.app.goo.gl/3bZ6GJkgKbq78n779"
-            ),
-            Place(
-                "Spice Farm",
-                R.mipmap.spice_farm,
-                "https://maps.app.goo.gl/r4t2mLLXkxwfKuwH7"
-            ),
-            Place(
-                "Big Foot Museum",
-                R.mipmap.museum,
-                "https://maps.app.goo.gl/52jqjd56pzXB5brD6"
-            )
-        )
-
-        val adapter = PlacesAdapter(placesList)
-        binding.otherRvVpf.apply {
-            this.adapter = adapter
-            layoutManager = LinearLayoutManager(requireContext())
-        }
-
-        adapter.onItemClick = {
-            val url : String = it.url
+        binding.place5CvVpf.setOnClickListener {
             val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
             val customTabsIntent = builder.build()
-            customTabsIntent.launchUrl(requireContext(), Uri.parse(url))
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/N7a73BLJ5x5wmbQ56"))
+        }
+
+        binding.place6CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/UGrw3chxCjvz56mUA"))
+        }
+
+        binding.place7CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/ic4zmvM57TnWJ9DK6"))
+        }
+
+        binding.place8CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/oNdkY2baHwrjTXyHA"))
+        }
+
+        binding.place9CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/rNiUentyJM6nnd9u5"))
+        }
+
+        binding.place10CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/3bZ6GJkgKbq78n779"))
+        }
+
+        binding.place11CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/r4t2mLLXkxwfKuwH7"))
+        }
+
+        binding.place12CvVpf.setOnClickListener {
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse("https://maps.app.goo.gl/52jqjd56pzXB5brD6"))
         }
 
         return binding.root

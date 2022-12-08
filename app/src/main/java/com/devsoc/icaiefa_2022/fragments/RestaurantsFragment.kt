@@ -33,10 +33,6 @@ class RestaurantsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val url : String = "https://www.justdial.com/Goa/Restaurants-in-Zuarinagar"
-        val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
-        val customTabsIntent = builder.build()
-        customTabsIntent.launchUrl(requireContext(), Uri.parse(url))
 
     }
 
