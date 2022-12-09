@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_margin="10dp"
-                    android:fontFamily="@font/averia_libre_bold"
+                    android:fontFamily="@font/poppins_extrabold"
                     android:text="Must Visit Places"
                     android:textColor="#000000"
                     android:textSize="25sp"
@@ -69,10 +69,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/averia_libre_bold"
+                                android:fontFamily="@font/poppins"
                                 android:text="Basilica of Bom Jesus"
                                 android:textColor="#000000"
-                                android:textSize="17sp" />
+                                android:textSize="15sp" />
                         </androidx.cardview.widget.CardView>
                     </androidx.cardview.widget.CardView>
 
@@ -109,10 +109,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/averia_libre_bold"
+                                android:fontFamily="@font/poppins"
                                 android:text="Calangute Beach"
                                 android:textColor="#000000"
-                                android:textSize="17.5sp" />
+                                android:textSize="15sp" />
                         </androidx.cardview.widget.CardView>
                     </androidx.cardview.widget.CardView>
 
@@ -148,10 +148,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/averia_libre_bold"
+                                android:fontFamily="@font/poppins"
                                 android:text="Aguada Fort"
                                 android:textColor="#000000"
-                                android:textSize="17.5sp" />
+                                android:textSize="15sp" />
                         </androidx.cardview.widget.CardView>
                     </androidx.cardview.widget.CardView>
 
@@ -187,10 +187,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/averia_libre_bold"
+                                android:fontFamily="@font/poppins"
                                 android:text="Dudhsagar Falls"
                                 android:textColor="#000000"
-                                android:textSize="17.5sp" />
+                                android:textSize="15sp" />
                         </androidx.cardview.widget.CardView>
                     </androidx.cardview.widget.CardView>
 
@@ -203,7 +203,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/averia_libre_bold"
+                    android:fontFamily="@font/poppins_extrabold"
                     android:text="Other Places"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -249,7 +249,7 @@
                             android:id="@+id/name5_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Bogmalo Beach"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -301,7 +301,7 @@
                             android:id="@+id/name6_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Baga Beach"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -353,7 +353,7 @@
                             android:id="@+id/name7_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Majorda Beach"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -405,7 +405,7 @@
                             android:id="@+id/name8_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Sunset Cruise"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -457,7 +457,7 @@
                             android:id="@+id/name9_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Shantadurga Temple"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -509,7 +509,7 @@
                             android:id="@+id/name10_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Old Goa Church"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -561,7 +561,7 @@
                             android:id="@+id/name11_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Spice Farm"
                             android:textColor="#000000"
                             android:textSize="20sp"
@@ -613,7 +613,7 @@
                             android:id="@+id/name12_tv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/averia_libre_bold"
+                            android:fontFamily="@font/poppins"
                             android:text="Big Foot Museum"
                             android:textColor="#000000"
                             android:textSize="20sp"

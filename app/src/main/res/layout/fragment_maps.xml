@@ -41,22 +41,26 @@
                 android:layout_marginLeft="16dp"
                 android:text="B Dome" />
 
-            <Button
-                android:id="@+id/VGHBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+    <Button
+        android:id="@+id/VGHBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Visitor's Guest House"
 
-                android:text="Visitor's Guest House" />
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <Button
-                android:id="@+id/medCBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:text="Medical Center"
-                app:layout_constraintStart_toEndOf="@id/VGHBtn"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/medCBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Medical Center"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/VGHBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

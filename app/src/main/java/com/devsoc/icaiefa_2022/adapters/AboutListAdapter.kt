@@ -1,6 +1,7 @@
 package com.devsoc.icaiefa_2022.adapters
 
 import android.content.Context
+import android.graphics.Color
 import android.graphics.Typeface
 import android.view.LayoutInflater
 import android.view.View
@@ -37,7 +38,6 @@ class AboutListAdapter internal constructor(
 
         val expandedListTextView = convertView!!.findViewById<TextView>(R.id.expandedListItem)
         expandedListTextView.text = expandedListText
-
         return convertView
     }
 
@@ -67,8 +67,10 @@ class AboutListAdapter internal constructor(
         }
 
         val listTitleTextView = convertView!!.findViewById<TextView>(R.id.listTitle)
-        listTitleTextView.setTypeface(null, Typeface.BOLD)
+        //listTitleTextView.setTypeface(null, Typeface.BOLD)
         listTitleTextView.text = listTitle
+
+
 
         return convertView
     }
