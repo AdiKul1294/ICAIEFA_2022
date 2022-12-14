@@ -1,9 +1,11 @@
 package com.devsoc.icaiefa_2022.fragments
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.devsoc.icaiefa_2022.R
@@ -33,7 +35,10 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.confInfoCvHf.setOnClickListener{
-            findNavController().navigate(R.id.action_nav_home_to_nav_about_conference)
+            val url = "https://www.bits-goa.ac.in/ICAIEFA2022/"
+            val builder : CustomTabsIntent.Builder = CustomTabsIntent.Builder()
+            val customTabsIntent = builder.build()
+            customTabsIntent.launchUrl(requireContext(), Uri.parse(url))
         }
         binding.goalsCvHf.setOnClickListener {
             findNavController().navigate(R.id.action_nav_home_to_nav_goal)
